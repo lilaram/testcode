@@ -5,7 +5,7 @@
   tasks:
     -  name: Get hostname
       shell: echo $HOSTNAME
-      register: result
+         register: result
 
    - name: Print the var
      debug:
