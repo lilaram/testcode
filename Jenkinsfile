@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 sh "ansible --version"
-                sh "sonar-scanner"
+                sh "/home/ubuntu/sonar-scanner-4.7.0.2747-linux/sonar-scanner -h"
             }
         }
     }
