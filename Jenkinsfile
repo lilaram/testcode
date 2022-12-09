@@ -10,6 +10,7 @@ node {
       sh ${scannerHome}/bin/sonar-scanner \
        -D sonar.projectKey=testyamlfiles \
        -D sonar.projectName=testyamlfiles \
+       -D sonar.sources=. \
        -D sonar.login=sqp_d0e764300d09cdbe5875df9f4b0cbf234a231b9f 
        '''
       
