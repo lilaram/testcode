@@ -5,6 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 sh "ansible --version"
+                sh "sonar-scanner"
             }
         }
     }
